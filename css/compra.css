@@ -32,7 +32,7 @@ h2{
 	font-size: 14px;
 }
 #p3{
-	margin-top: 25%;
+	margin-top: 35%;
 	background-color:#c69d5f;
 	color: white;
 	width: 40%;
@@ -107,7 +107,7 @@ i{
 	margin: 0% 1% 0% 7%;
 	height:25px;
 	font-size: 20px;
-	width: 40%;
+	width: 30%;
 	background-color: white;
 	border-radius: 15px;
 	border-color: #DEB887;
@@ -118,4 +118,8 @@ i{
 	border-radius: 20px;
 	margin-left:0px;
 	margin-right: 5%;
+}
+
+img{
+	width: 100%;
 }

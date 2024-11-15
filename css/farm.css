@@ -11,18 +11,14 @@ h2{
 #titulo{
 	color: white;
 	font-size: 50px;
-	margin: 0px;
+	margin-top: 7%;
+	text-align: center;
 }
 a{
 	text-decoration: none;
 }
-.metade{
-	margin-top: 40px;
-}
-.Desconto{
-	font-size: 70px;
-	margin-top: 20px;
-}
+
+
 .com{
 	border-style: solid;
 	border-color: #ffd501;
@@ -34,7 +30,7 @@ a{
 }
 .promo{
 	border: 6px;
-	height: 300px;
+	height: 200px;
 	width: 20%;
 	border-color: #ffd501;
 	border-style: solid;
@@ -45,24 +41,12 @@ a{
 
 }
 h1{
-	font-size: 30px;
+	font-size: 24px;
 	color:#ffd501;
 	margin: 0px;
 	text-align: center;
 }
-#p1{
-	margin-top: 95px;
-	background-color: #c69d5f;
-	color: white;
-	width: 40%;
-	text-align: center;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
-	font-size: 30px;
-	font-family: arial;
-	margin-left: 0px;
-	margin-right: 500px;
-}
+
 nav{
 	color: white;
 	padding: 15px;
@@ -98,11 +82,11 @@ nav{
 .cima{
 	background-color: #042d64;
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	height: 60px;
 	position: fixed;
 	width: 100%;
+	margin-bottom: 10%;
+
 }
 i{
 	color: white;
@@ -123,7 +107,7 @@ i{
 	margin: 0% 1% 0% 7%;
 	height:25px;
 	font-size: 20px;
-	width: 40%;
+	width: 30%;
 	background-color: white;
 	border-radius: 15px;
 	border-color: #DEB887;

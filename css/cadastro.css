@@ -1,132 +1,169 @@
 body {
-	background-color: #2b4b82;
-	margin: 0px;
+    background-color: #2b4b82;
+    margin: 0px;
 }
+
 .lado {
-	float: right;
-	height: 1000px;
-	width: 50%;
-	text-align: center;
-	background-color: white;
-	font-size: 34px;
-	font-family: arial ;
-	margin-top: 60px;
-	border: 4px;
-	border-color: #DEB887;
-	border-style: solid;
+    float: right;
+    width: 50%; /* Ajustado para garantir que a largura do formulário e imagem não ultrapassem a tela */
+    text-align: center;
+    background-color: white;
+    font-size: 34px;
+    font-family: arial;
+    margin-top: 60px;
+    border: 4px;
+    border-color: #DEB887;
+    border-style: solid;
+    box-sizing: border-box; /* Adicionado para que o padding e borda não ultrapassem a largura definida */
 }
+
 .formulario {
-	text-align: left;
-	font-size: 25px;
-	font-family: sans-serif;
-	font-family: arial;
-	margin-left: 40px;	
-	margin-top: 100px;
+    text-align: left;
+    font-size: 25px;
+    font-family: sans-serif, arial;
+    margin-top: 100px;
 }
-label{
-	margin-left: 8px;
+
+label {
+    margin-left: 8px;
 }
+
 input {
-	font-size: 34px;
-	height: 35px;
-	margin: 10px;
-	width: 93%;
-	border-radius: 10px;
-	border-style: solid;
+    font-size: 28px;
+    height: 35px;
+    margin: 10px;
+    width: 93%;
+    border-radius: 10px;
+    border-style: solid;
 }
 
-h1{
-	font-size: 64px;
-	font-family:arial ;
-	color: #2b4b82;
-	margin: 5px;
+h1 {
+    font-size: 44px;
+    font-family: arial;
+    color: #2b4b82;
+    margin: 5px;
 }
-h2{
-	font-size: 24px;
-	padding-top: 0px;
-	margin: 0px;
 
+h2 {
+    font-size: 24px;
+    padding-top: 0px;
+    margin: 0px;
 }
+
 img {
-	height: 750px;
-	margin: 70px;
+    height: 750px;
+    margin: 0px; /* Ajustado para alinhar corretamente ao lado do formulário */
+    max-width: 45%; /* Garantido que a imagem não ultrapasse a tela */
+    object-fit: cover; /* Para manter a proporção da imagem sem distorcer */
 }
 
-article{
-	height: 120px;
-	border-bottom-style: solid;
-	border-bottom-color: #DEB887;
-	border-width: 2px;
-	margin: 50px;
+article {
+    height: 120px;
+    border-bottom-style: solid;
+    border-bottom-color: #DEB887;
+    border-width: 2px;
+    margin: 50px;
 }
-#entrar{
-	color: white;
-	margin-top: 30px;
-	height: 45px;
-	width: 20%;
-	border-radius: 10px;
-	margin-top: 50px;
-	margin-left: 330px;
-	background-color: #2b4b82;
-	border-color: #DEB887;
-	border-style: solid;
-	border-width: 2px;
-}
-#data{
-	margin-top: 10px;
-	height: 40px;
-	width: 26%;
-	border-radius: 10px;
-}
-/*Essa é a barra de navegação*/
-.dentro, .IDF{
-	float: left;
-	font-family: arial;
-	font-size: 20px;
-	color: white;
-	text-align: center;
-	padding: 18px 20px;
-	margin: 0px;
-	text-decoration: none;
 
+#entrar {
+    color: white;
+    margin-top: 30px;
+    height: 45px;
+    width: 20%;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 330px;
+    background-color: #2b4b82;
+    border-color: #DEB887;
+    border-style: solid;
+    border-width: 2px;
 }
-.cima{
-	background-color: #042d64;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	height: 60px;
-	position: fixed;
-	width: 100%;
+
+#data {
+    margin-top: 10px;
+    height: 40px;
+    width: 26%;
+    border-radius: 10px;
 }
-i{
-	color: white;
-	text-align: center;
+
+/* Barra de navegação */
+.dentro, .IDF {
+    float: left;
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    margin: 0px;
+    text-decoration: none;
 }
-.dentro:hover{
- 	background-color:#DEB887;
+
+.cima {
+    background-color: #042d64;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    position: fixed;
+    width: 100%;
 }
-.dentro a{
-	color: white;
-	text-decoration: none;
-	display: inline-block;
-	color: white;
-	text-align: center;
-	text-decoration: none;
+
+i {
+    color: white;
+    text-align: center;
 }
-.pesqui{
-	margin: 0% 1% 0% 7%;
-	height:25px;
-	font-size: 20px;
-	width: 40%;
-	background-color: white;
-	border-radius: 15px;
-	border-color: #DEB887;
+
+.dentro:hover {
+    background-color: #DEB887;
 }
-.butao{
-	background-color: #2b4b82;
-	border-color: #DEB887;
-	border-radius: 20px;
-	margin-left:0px;
-	margin-right: 5%;
+
+.dentro a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.pesqui {
+    margin: 0% 1% 0% 7%;
+    height: 25px;
+    font-size: 20px;
+    width: 30%;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #DEB887;
+}
+
+.butao {
+    background-color: #2b4b82;
+    border-color: #DEB887;
+    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 5%;
+}
+
+.imgeform {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Para garantir que a imagem e o formulário estejam alinhados ao topo */
+    flex-wrap: wrap; /* Adicionado para tornar a área responsiva */
+}
+
+@media (max-width: 768px) {
+    .lado {
+        width: 100%; /* Para telas menores, faz com que o formulário ocupe toda a largura */
+        margin-top: 20px;
+    }
+
+    img {
+        width: 100%; /* A imagem ocupará toda a largura da tela */
+        height: auto; /* Ajusta a altura da imagem de forma proporcional */
+    }
+
+    .imgeform {
+        flex-direction: column; /* Em telas pequenas, a imagem e o formulário ficam em coluna */
+        align-items: center;
+    }
 }

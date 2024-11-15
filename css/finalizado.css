@@ -45,9 +45,7 @@ h3{
 	flex-direction: row;
 	margin: 0% 0 2% 2%;
 }
-article{
-	padding: 1% 14%;
-}
+
 nav, h2{
 	font-family: arial;
 	font-weight: bold;
@@ -70,17 +68,18 @@ nav{
 	border-width: 1px;
 	margin: 5% 0% 0% 0%;
 }
-h1{
-	font-size: 60px;
-	color: white;
-	margin-left: 2%;
-	font-family: arial;
-	background-color: #c69d5f;
-	margin: 4% 79.3% 3% 3%;
-	border: none;
-	border-radius:18px 18px 18px 18px;
-	padding: 0% 1.3%;
+h1 {
+    font-size: 60px;
+    color: white;
+    margin-left: 2%;
+    font-family: Arial, sans-serif;
+    background-color: #c69d5f;
+    margin: 4% 5% 3% 3%;  /* Mantém o margin como estava */
+    border: none;
+    border-radius: 18px;
+    padding: 10px 10px;  /* Diminui o padding horizontal pela metade */
 }
+
 /*Essa é a barra de navegação*/
 .dentro, .IDF{
 	float: left;
@@ -121,7 +120,7 @@ i{
 	margin: 0% 1% 0% 7%;
 	height:25px;
 	font-size: 20px;
-	width: 40%;
+	width: 30%;
 	background-color: white;
 	border-radius: 15px;
 	border-color: #DEB887;

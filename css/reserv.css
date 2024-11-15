@@ -68,10 +68,10 @@ h1{
 	margin-left: 2%;
 	font-family: arial;
 	background-color: #c69d5f;
-	margin: 4% 76.5% 3% 3%;
 	border: none;
-	border-radius:18px 18px 18px 18px;
-	padding: 0% 1.3%;
+	width: 30%;
+	border-radius:18px;
+	
 }
 #aperte{
 	width: 16%;
@@ -125,7 +125,7 @@ i{
 	margin: 0% 1% 0% 7%;
 	height:25px;
 	font-size: 20px;
-	width: 40%;
+	width: 30%;
 	background-color: white;
 	border-radius: 15px;
 	border-color: #DEB887;
