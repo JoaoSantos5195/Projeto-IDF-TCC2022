@@ -1,0 +1,120 @@
+body{
+	background-color: #2b4b82;
+	margin: 0px;
+}
+.botao1, .botao2{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 30px;
+	background-color: #DEB887;
+	border-style: solid;
+}
+label{
+	color: white;
+	font: arial;
+	text-align: center;
+	margin-left: 130px;
+}
+.formu{
+	width: 100%;
+	height: 400px;
+	font-family: arial;
+}
+.frase1{
+	color: white;
+	font-family: arial;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 40px;
+}
+.frase2{
+	font-family:arial ;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 45px;
+}
+.direito{	
+	font-size: 32px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 200px;
+}
+.esquerdo{
+	float: right;
+	font-size: 32px;
+	margin-top: 20px;
+	margin-right: 200px;
+}
+#imagem1 {
+	height: 390px;
+	width: 90%;
+}
+#imagem2 {
+	height: 400px;
+	width: 100%;
+}
+.botao1{
+	margin-top: 10px;
+	height: 50px;
+	width: 90%;
+	border-radius: 10px;
+}
+.botao2{
+	margin-top: 10px;
+	height: 50px;
+	width: 100%;
+	border-radius: 10px;
+}
+/*Essa é a barra de navegação*/
+.dentro, .IDF{
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.cima{
+	background-color: #042d64;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+i{
+	color: white;
+	text-align: center;
+}
+.dentro:hover{
+ 	background-color:#DEB887;
+}
+.dentro a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.pesqui{
+	margin: 0% 1% 0% 7%;
+	height:25px;
+	font-size: 20px;
+	width: 40%;
+	background-color: white;
+	border-radius: 15px;
+	border-color: #DEB887;
+}
+.butao{
+	background-color: #2b4b82;
+	border-color: #DEB887;
+	border-radius: 20px;
+	margin-left:0px;
+	margin-right: 5%;
+}

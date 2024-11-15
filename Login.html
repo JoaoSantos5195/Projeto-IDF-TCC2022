@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/login.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="meni.js"></script>
+	<link rel="stylesheet" type="text/css" href="icon menu.png">
+
+	<script type="text/javascript" src="meni.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="menuo.css">
+	<title>IDF Online</title>
+</head>
+<body>
+	<div class="cima">
+		<div class="IDF">IDF ONLINE</div>
+		<div id="men" class="us">
+		<a href="javascript:void(0)" class="fechar" onclick="closeNav()">&times;</a>
+
+			<div class="menu-content">
+				<a href="perfil.html" id="aparece" >Perfil</a>
+				<a href="minhasCompras.html" id="aparece">Minhas compras</a>
+				<a href="reservados.html" id="aparece">Reservados</a>
+				<a href="favoritos.html" id="aparece">Favoritos</a>
+				<a href="#" id="aparece">Configurações</a>
+				<a href="#" id="aparece">Sobre nós</a>
+				<a href="#" id="aparece">Central de ajuda</a>
+			</div>
+		</div>
+		<button class="nav-button" onclick="openNav()">
+			<i class="fa fa-bars fa-2x"></i>
+		</button>
+
+		<div class="dentro"><a href="farma.html">Home</a></div>
+		<div class="dentro"><a href="compraonline.html">Remédios</a></div>
+		<div class="dentro" style=" float: right;"><a href="perfil.html"><i style="font-size: 20px;" class="fa fa-user"></i></a></div>	
+		<div class="dentro" style="float: right;"><a href="cadastro.html">Inscreva-se</a></div>
+		<div class="dentro" style="float: right;"><a href="carrinho.html"><i style="font-size: 20px;" class="fa fa-shopping-cart"></i></a></div>
+		<input class="pesqui" type="text" placeholder=" " name="perquise" style="margin-bottom: 0;">
+		<button class="butao" type="submit" style="width: 50px; height: 40px;"><i class="fa fa-search" style="font-size: 20px;"></i></button>
+
+	</div>	
+	<img src="IMAGENS/Logotipo IDF Online.jpg">
+<div class="lado">
+	<br>
+	<article>
+	<h1>Login</h1>
+	<h2>Faça login para continuar</h2>
+	</article>
+	
+	<form class="form" method="post" action="farma.html">
+		<label>Por favor, insira o email:</label>
+		<br>
+		<input type="text" name="Email">
+		<br>
+		<label>Por favor, insira a senha:</label>
+		<br>
+		<input type="email" name="Senha">
+	
+		<input type="submit" value="Entrar" id="entrar">
+
+	</form>
+</div>
+
+</body>
+</html>

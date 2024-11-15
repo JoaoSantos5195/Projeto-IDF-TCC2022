@@ -1,0 +1,136 @@
+body{
+	background-color: #2b4b82;
+	margin: 0;
+}
+#linha{
+	border: solid;
+	border-top: 2px;
+	border-color: white;
+	border-left: none;
+	border-right: none;
+	border-width: 1px;
+	margin: 5% 0% 0% 0%;
+}
+.sin, .tu{
+	display: flex;
+	flex-direction: row; 
+	margin: 2% 3% 0% 3%;
+	background-color: #E9EAEB;	
+	border-radius: 23px;
+}
+h2{
+	font-size: 28px;
+	margin-bottom: 2%;
+}
+nav{
+	font-size: 18px;
+	margin-top: 18%;
+}
+article{
+	padding: 0.5%;
+	font-size: 20px;
+}
+h1{
+	font-size: 60px;
+	color: white;
+	margin-left: 2%;
+	font-family: arial;
+	background-color: #c69d5f;
+	margin: 4% 81% 3% 3%;
+	border: none;
+	border-radius:18px 18px 18px 18px;
+	padding: 0% 1.3%;
+}
+.tudo{
+	display: flex;
+	flex-direction: column;
+	margin: 0 ;
+	font-family: arial;
+	font-weight: bold;
+}
+#image1, #image2{
+	height: 22%;
+	width: 12%;
+	border: none;
+	border-radius: 12px;
+	margin: 1% 2% 1% 1%;
+}
+#preco{
+	float: right;
+	font-size: 25px;
+	margin: 11% 0 1% 62%;
+}
+#total{
+	background-color: #E9EAEB;
+	margin: 3% 0 0 0;
+	font-family: arial;
+	font-weight: bold;
+	height: 190px;
+}
+#tal{
+	font-size: 28px;
+	margin: 1.5% 0 1% 2%;
+
+}
+.finalizacao{
+	background-color: #c5c5ca;
+	width: 50%;
+	height: 55px;
+	font-size: 30px;
+	font-family: arial;
+	font-weight: bold;
+	margin: 0% 24% 0% 24%;
+}
+
+/*Essa é a barra de navegação*/
+.dentro, .IDF{
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.cima{
+	background-color: #042d64;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+i{
+	color: white;
+	text-align: center;
+}
+.dentro:hover{
+ 	background-color:#DEB887;
+}
+.dentro a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.pesqui{
+	margin: 0% 1% 0% 7%;
+	height:25px;
+	font-size: 20px;
+	width: 40%;
+	background-color: white;
+	border-radius: 15px;
+	border-color: #DEB887;
+}
+.butao{
+	background-color: #2b4b82;
+	border-color: #DEB887;
+	border-radius: 20px;
+	margin-left:0px;
+	margin-right: 5%;
+}

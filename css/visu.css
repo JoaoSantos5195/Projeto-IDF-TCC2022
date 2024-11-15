@@ -1,0 +1,151 @@
+body{
+	background-color: #2b4b82;
+	margin: 0;
+}
+#tudo{
+	font-family: arial;
+	color: white;
+	margin-top: 3%;
+}
+.esquerdo{
+	width: 32%;
+	float: left;
+	padding: 5% 0 0 13%;
+}
+.direito{
+	float: right;
+	width: 37%;
+	margin: 0px;
+	padding-right: 15%;
+	margin-top: 5%;
+}
+.desc, h1, h2{
+	font-family: arial;
+	color: white;
+}
+.deriva{
+	margin: 4% 0% 1.5% 0%;
+	width: 85%;
+	height: 59%;
+	border-radius: 30px;
+	border: 5px solid #042d64;
+
+}
+#tite{
+	display: flex;
+	flex-direction: row;
+}
+h1{
+	margin: 4% 26% 0 0%;
+	font-size: 43px;
+}
+h2{
+	font-size: 30px;
+	margin-left: 5%;
+}
+nav{
+	font-size: 23px;
+	margin: 0% 0% 6% 0%;
+	color: white;
+}
+article{
+	font-size: 25px;
+	margin-right: 2%;
+	color: white;
+}
+#quant{
+	display: flex;
+	flex-direction: row;
+	margin-left: 0%;
+}
+#perdeu{
+	display: flex;
+	flex-direction: column;
+	margin-left: 0%;
+}
+.ac{
+	margin-bottom: 5%;
+	height: 50px;
+	font-size: 23px;
+	font-weight: bold;
+	border-radius: 15px;
+	border: none;
+}
+.ac:hover{
+	background-color: #c69d5f;
+}
+a:hover{
+	color: white;
+	border: none;
+}
+#quantida{
+    font-size: 15px;
+    padding:6px;
+}
+input[type=number]::-webkit-inner-spin-button { 
+	all: unset; 
+	min-width: 21px;
+	min-height: 45px;
+	margin: 17px;
+	padding: 0px;
+	background-image: 
+	linear-gradient(to top, transparent 0px, transparent 16px, #fff 16px, #fff 26px, transparent 26px, transparent 35px, #000 35px,#000 36px,transparent 36px, transparent 40px),
+	linear-gradient(to right, transparent 0px, transparent 10px, #000 10px, #000 11px, transparent 11px, transparent 21px);
+	transform: rotate(90deg) scale(0.8, 0.9);
+	cursor:pointer;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.dentro, .IDF{
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.cima{
+	background-color: #042d64;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+i{
+	color: white;
+	text-align: center;
+}
+.dentro:hover{
+ 	background-color:#DEB887;
+}
+.dentro a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.pesqui{
+	margin: 0% 0% 0% 7%;
+	height:25px;
+	font-size: 20px;
+	width: 40%;
+	background-color: white;
+	border-radius: 15px;
+	border-color: #DEB887;
+}
+.butao{
+	background-color: #2b4b82;
+	border-color: #DEB887;
+	border-radius: 20px;
+	margin-left:0px;
+	margin-right: 5%;
+}

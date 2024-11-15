@@ -1,0 +1,132 @@
+body {
+	background-color: #2b4b82;
+	margin: 0px;
+}
+.lado {
+	float: right;
+	height: 1000px;
+	width: 50%;
+	text-align: center;
+	background-color: white;
+	font-size: 34px;
+	font-family: arial ;
+	margin-top: 60px;
+	border: 4px;
+	border-color: #DEB887;
+	border-style: solid;
+}
+.formulario {
+	text-align: left;
+	font-size: 25px;
+	font-family: sans-serif;
+	font-family: arial;
+	margin-left: 40px;	
+	margin-top: 100px;
+}
+label{
+	margin-left: 8px;
+}
+input {
+	font-size: 34px;
+	height: 35px;
+	margin: 10px;
+	width: 93%;
+	border-radius: 10px;
+	border-style: solid;
+}
+
+h1{
+	font-size: 64px;
+	font-family:arial ;
+	color: #2b4b82;
+	margin: 5px;
+}
+h2{
+	font-size: 24px;
+	padding-top: 0px;
+	margin: 0px;
+
+}
+img {
+	height: 750px;
+	margin: 70px;
+}
+
+article{
+	height: 120px;
+	border-bottom-style: solid;
+	border-bottom-color: #DEB887;
+	border-width: 2px;
+	margin: 50px;
+}
+#entrar{
+	color: white;
+	margin-top: 30px;
+	height: 45px;
+	width: 20%;
+	border-radius: 10px;
+	margin-top: 50px;
+	margin-left: 330px;
+	background-color: #2b4b82;
+	border-color: #DEB887;
+	border-style: solid;
+	border-width: 2px;
+}
+#data{
+	margin-top: 10px;
+	height: 40px;
+	width: 26%;
+	border-radius: 10px;
+}
+/*Essa é a barra de navegação*/
+.dentro, .IDF{
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.cima{
+	background-color: #042d64;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+i{
+	color: white;
+	text-align: center;
+}
+.dentro:hover{
+ 	background-color:#DEB887;
+}
+.dentro a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.pesqui{
+	margin: 0% 1% 0% 7%;
+	height:25px;
+	font-size: 20px;
+	width: 40%;
+	background-color: white;
+	border-radius: 15px;
+	border-color: #DEB887;
+}
+.butao{
+	background-color: #2b4b82;
+	border-color: #DEB887;
+	border-radius: 20px;
+	margin-left:0px;
+	margin-right: 5%;
+}

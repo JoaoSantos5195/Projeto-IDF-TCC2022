@@ -1,0 +1,82 @@
+.nav-button{
+	border: 0;
+	border-radius: 0px;
+	padding: 16px;
+	background-color: #042d64;
+
+	cursor: pointer;
+}
+
+.nav-button:hover{
+	background-color:#DEB887;
+}
+
+.nav-button i{
+	color: white;
+}
+
+.us{
+	height: 100%;
+	background-color: rgb(0, 0, 0); 
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 9;
+	position: fixed;
+	width: 0%;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	transition: all 0.8s;
+}
+
+.menu-content{
+	position: relative;
+	top: 12%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.menu-content a{
+	padding: 8px;
+	text-decoration: none;
+	color: #DCDCDC;
+	display: block;
+	font-size: 25px;
+	transition: 0.5s;
+}
+#aparece{
+	border: solid;
+    border-top: none;
+    border-color: white;
+    border-left: none;
+    border-right: none;
+    border-width: 0.2px;
+    margin: 0% 4% 0% 4%;
+    padding: 5%;
+    text-align: left;
+}
+.menu-content a:hover, .menu-content a:focus{
+	color: white;
+}
+
+.us .fechar{
+	position: absolute;
+	top: 25px;
+	right: 45px;
+	font-size: 60px;
+	text-decoration: none;
+	color: #DCDCDC;
+}
+
+@media screen and (max-height: 450px){
+	.us a { font-size: 20px; }
+	.us, .fechar{
+		font-size: 40px;
+		top: 15px;
+		right: 35px;
+	}
+}
+
+.fechar:hover, .fechar:focus{
+	color: white;
+}

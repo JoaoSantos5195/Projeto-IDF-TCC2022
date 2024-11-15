@@ -1,0 +1,121 @@
+body{
+	background-color: #2b4b82;
+	margin: 0px;
+}
+.p3{
+	padding-right: 18%;
+	text-align: left;
+}
+nav{
+	color: white;
+	padding: 5px;
+	text-align: left;
+	font-size: 16px;
+	font-family: arial;
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+	text-align: center;
+	font-family: arial;
+}
+.promo{
+	height: 30%;
+	width: 20%;
+	margin: 0px;
+	float: left;
+	margin-top: 11%;
+	margin-left: 2%;
+	font-family: arial;
+	font-size: 14px;
+}
+#p3{
+	margin-top: 25%;
+	background-color:#c69d5f;
+	color: white;
+	width: 40%;
+	text-align:center;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	font-size: 140%;
+	font-family: arial;
+	margin-left: 0px;
+	margin-right: 90%;
+
+}
+.p1{
+	margin-top: 5%;
+	background-color: #c69d5f;
+	color: white;
+	width: 40%;
+	text-align:center;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	font-size: 140%;
+	font-family: arial;
+	margin-left: 0px;
+	margin-right: 90%;
+}
+#p2{
+	margin: 5px;
+	border: 3px solid;
+	float: left;
+	width: 13%;
+	margin: 60px;
+	border-color: #c69d5f;
+	margin-top: 2%;
+}
+/*Essa é a barra de navegação*/
+.dentro, .IDF{
+	float: left;
+	font-family: arial;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	padding: 18px 20px;
+	margin: 0px;
+	text-decoration: none;
+
+}
+.cima{
+	background-color: #042d64;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+}
+i{
+	color: white;
+	text-align: center;
+}
+.dentro:hover{
+ 	background-color:#DEB887;
+}
+.dentro a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+}
+.pesqui{
+	margin: 0% 1% 0% 7%;
+	height:25px;
+	font-size: 20px;
+	width: 40%;
+	background-color: white;
+	border-radius: 15px;
+	border-color: #DEB887;
+}
+.butao{
+	background-color: #2b4b82;
+	border-color: #DEB887;
+	border-radius: 20px;
+	margin-left:0px;
+	margin-right: 5%;
+}
